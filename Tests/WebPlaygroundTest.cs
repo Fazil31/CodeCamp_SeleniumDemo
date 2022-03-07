@@ -34,6 +34,8 @@ namespace CodeCamp_SeleniumDemo
             driver?.Quit();
         }
 
+        [Ignore]
+        [TestCategory("Smoke")]
         [TestMethod]
         public void PlayGround_VerifyHomePage()
         {
@@ -55,6 +57,7 @@ namespace CodeCamp_SeleniumDemo
             
         }
 
+        [Ignore]
         [TestMethod]
         public void PlayGround_VerifyForename()
         {

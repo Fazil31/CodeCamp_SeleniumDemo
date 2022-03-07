@@ -36,6 +36,7 @@ namespace CodeCamp_SeleniumDemo.Tests
             driver?.Quit();
         }
 
+        [Ignore]
         [TestMethod]
         public void PlayGround_VerifyExploreEarth()
         {
@@ -51,6 +52,7 @@ namespace CodeCamp_SeleniumDemo.Tests
             Assert.AreEqual(planetPage.PopUp.GetPopUpText(), "Exploring Earth");
         }
         
+        [Ignore]
         [TestMethod]
         public void PlayGround_VerifyEarthDistance()
         {

@@ -37,6 +37,8 @@ namespace CodeCamp_SeleniumDemo.Tests
         {
             driver?.Quit();
         }
+
+        [Ignore]
         [TestMethod]
         public void PlayGround_VerifyFeedback()
         {
